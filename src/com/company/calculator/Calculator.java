@@ -14,7 +14,6 @@ public class Calculator {
     try {
       return result;
     } catch (Exception e) {
-      System.out.println(e);//вносим изменения
       e.printStackTrace();
     }
 
