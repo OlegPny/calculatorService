@@ -2,6 +2,8 @@ package com.company.calculator;
 
 public class Calculator {
 
+  Calculator cl = new Calculator();//создаем экземпляр класса для теста мерджа.
+
   /**
    * Сложение двух чисел
    *
