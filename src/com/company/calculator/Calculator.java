@@ -11,7 +11,7 @@ public class Calculator {
    * @param second второе слагаемое
    * @return сумма
    */
-  public double addition(double first, double second) {
+  public double add(double first, double second) {
     double result = first + second;
     try {
       return result;
@@ -54,6 +54,9 @@ public class Calculator {
     }
     throw new ArithmeticException("Not implemented");
 
+  }
+  public void test(int a){
+    int b=0;
   }
 
 }
