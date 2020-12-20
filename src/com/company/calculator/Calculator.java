@@ -14,6 +14,7 @@ public class Calculator {
     try {
       return result;
     } catch (Exception e) {
+      System.out.println(e);//вносим изменения
       e.printStackTrace();
     }
 
@@ -45,23 +46,6 @@ public class Calculator {
 
   public double multiply(double first, double second) {
     double result = first * second;
-    try {
-      return result;
-    } catch (Exception e) {
-      e.printStackTrace();
-    }
-    throw new ArithmeticException("Not implemented");
-
-  }
-
-  /**
-   * @param first делимое
-   * @param second делитель
-   * @return разность
-   */
-
-  public double divide(double first, double second) {
-    double result = first / second;
     try {
       return result;
     } catch (Exception e) {
