@@ -55,8 +55,4 @@ public class Calculator {
     throw new ArithmeticException("Not implemented");
 
   }
-  public void test(int a){
-    int b=0;
   }
-
-}
